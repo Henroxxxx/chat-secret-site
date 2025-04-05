@@ -1,6 +1,6 @@
 function showSecretPrompt() {
   const code = prompt("Entrez le code secret");
-  if (code === "1209") {
+  if (code === "matoc1209") {
     document.getElementById("menu").style.display = "none";
     document.getElementById("secret-chat").style.display = "block";
   } else {
